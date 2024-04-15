@@ -1,0 +1,25 @@
+/* wallet_modal_container */
+@media screen and (min-width: 0px) {
+    .wallet_card_wrapper{
+        background: transparent;
+        border-radius: 22px;
+        border: 2px solid #cccccc;
+        outline: none;
+        color: #ffffff;
+        padding: 20px;
+        margin: 5px;
+        width: auto;
+        /* margin: 0 auto;         */
+    }
+
+    .wallet_card_icon{
+        width: 50px;
+        /* height: 30px; */
+        margin: 0 auto;
+    }
+    
+}
+
+/* @media screen and (min-width: 0px){
+
+} */

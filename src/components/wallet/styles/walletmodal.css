@@ -1,0 +1,35 @@
+@media screen and (min-width: 0px) {
+    .wallet_modal_container{
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%; /* Full width */
+        /* height: 100%; Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        overflow: hidden;
+        /* box-shadow: 0px 20px 36px -8px rgba(14, 14, 44, 0.1), 0px 1px 1px rgba(0, 0, 0, 0.05); */
+        z-index: 1000;
+    }
+
+    .wallet_modal_wallets{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #4954f0;
+        border-radius: 9px;
+        margin: 15px auto; /* 15% from the top and centered */
+        padding: 10px;
+        border: 1px solid rgb(32, 52, 232);
+        width: 90%; 
+        max-width: 500px;
+    }
+}
+
+/* @media screen and (min-width: 0px){
+
+} */

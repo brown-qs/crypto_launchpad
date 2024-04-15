@@ -1,0 +1,92 @@
+@media screen and (min-width: 0px) {
+    .pool_container{
+        color: #ffffff;
+        border: 2px solid #ffffff;
+        border-radius: 9px;
+        padding: 10px 30px;
+        margin: 15px;
+        min-width: 270px;
+        text-align: center;
+    }
+
+    .brise_img_container{
+        text-align: center;
+    }
+
+    .brise_img{
+        width: 60px;
+        border: 2px solid #ffffff;
+        border-radius: 10px;
+        padding: 5px;
+    }
+
+    .pool_select_btn{
+        align-items: center;
+        appearance: button;
+        max-width: 87px !important;
+        background-color: #0276FF;
+        border-radius: 8px;
+        border-style: none;
+        box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: flex;
+        flex-direction: row;
+        flex-shrink: 0;
+        font-family: "RM Neue",sans-serif;
+        font-size: 100%;
+        line-height: 1.15;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding: 10px 21px;
+        text-align: center;
+        text-transform: none;
+        /* transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out; */
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
+
+    @keyframes stake-waves {
+        from {
+            left: -150px;
+        }
+        to {
+            left: 100%;
+        }
+        
+    }
+
+    .totalstake-wave{
+        /* margin-top: 30px; */
+        min-height: 30px;
+        display: block;
+        background-color: #040C18;
+        position: relative;
+        overflow: hidden;
+        transform: translate3d(0, 0, 0);
+        max-width: 100%;
+        width: 60%;
+        border-radius: 5px;
+    }
+
+    .totalstake-wave::before{
+        content: "";
+        position: absolute;
+        background-image: linear-gradient(90deg, transparent, rgba(243, 243, 243, 0.5), transparent);
+        top: 0;
+        left: -150px;
+        height: 100%;
+        width: 150px;
+        animation: stake-waves 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+
+    .staked-amt{
+        color: rgb(39, 203, 110);
+    }
+    
+
+    
+}
+

@@ -1,0 +1,21 @@
+@media screen and (min-width: 0px) {
+    .pools_container{
+        width: 90%;
+        max-width: 600px;
+        margin: 0 auto;
+        /* position: fixed; */
+        height: 100vh;
+    }
+
+    .pools_content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        color: #ffffff;
+
+    }
+
+    
+}
+
